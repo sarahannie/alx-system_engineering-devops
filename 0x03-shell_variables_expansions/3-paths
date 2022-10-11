@@ -1,3 +1,2 @@
 #!/bin/bash
-ls -t1 | head *
-
+echo $PATH | tr ":" "\n" |wc -l
